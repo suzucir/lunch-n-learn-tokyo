@@ -12,7 +12,7 @@ jobs:
       - image: circleci/ruby:2.4.1
     steps:
       - checkout
-      - run: echo "A second hello" 
+      - run: echo "A second hello!" 
       - run: sleep 5
 workflows:
   version: 2
